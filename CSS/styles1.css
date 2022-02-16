@@ -1,3 +1,4 @@
+/* ----------------------------------- Estilos da tela 1 ----------------------------------- */
 /* ----------------------------------- Configs. Globais ----------------------------------- */
 * {
 	box-sizing: border-box;
@@ -28,6 +29,7 @@ header {
 	margin-top: 13px;
 }
 /* ----------------------------------- Main ----------------------------------- */
+
 main {
 	width: 90vw;
 	margin: auto;
@@ -36,7 +38,7 @@ main {
 	align-items: center;
 }
 main .criadorDeQuiz {
-	width: 340px;
+    width: 90%;
 	height: 181px;
 	border: 1px solid #d4d4d4;
 	margin-bottom: 77px;
