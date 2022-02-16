@@ -1,9 +1,33 @@
 /* ----------------------------------- Estilos da tela 2 ----------------------------------- */
 /* ----------------------------------- Banner do quiz ----------------------------------- */
-.boxTela2 {
-	width: 100%;
-}
 .bannerDoQuiz{
     width:100%;
     height: 142px;
+    position:relative;
+    margin-bottom:42px;
+    background-image: url("Imagens/Figma/Tela2/hogwartsbanner.png"); /*Não funciona*/
+}
+.tituloDoBanner{
+    position:absolute;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size:19px;
+    bottom:0;
+}
+/* ----------------------------------- Banner do quiz ----------------------------------- */
+/* ----------------------------------- Perguntas do quiz ----------------------------------- */
+.perguntaDoQuiz{
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+}
+.pergunta{
+
+}
+.respostasDoQuiz{
+    display:flex;
+    flex-wrap: wrap;
+}
+.resposta{
+    margin: 12px 0px 12px 12px;
 }
