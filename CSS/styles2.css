@@ -1,33 +1,92 @@
 /* ----------------------------------- Estilos da tela 2 ----------------------------------- */
 /* ----------------------------------- Banner do quiz ----------------------------------- */
-.bannerDoQuiz{
-    width:100%;
-    height: 142px;
-    position:relative;
-    margin-bottom:42px;
-    background-image: url("Imagens/Figma/Tela2/hogwartsbanner.png"); /*Não funciona*/
+.azul{
+    background-color:#434CA0;
 }
-.tituloDoBanner{
-    position:absolute;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size:19px;
-    bottom:0;
+.roxo{
+    background-color:#A0438D;
 }
-/* ----------------------------------- Banner do quiz ----------------------------------- */
-/* ----------------------------------- Perguntas do quiz ----------------------------------- */
-.perguntaDoQuiz{
-    width: 90%;
+.laranja{
+    background-color: #EC362D;
+}
+.boxTela2{
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
-.pergunta{
-
+.bannerDoQuiz{
+    width: 100vw;
+    height: 16vh;
+    background-image: url(/Imagens/Figma/Tela2/hogwartsbanner.png);
+    background-size: cover;
 }
-.respostasDoQuiz{
+.textoDoBanner{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Porque não funciona ? */
+    font-weight: 400;
+    font-size: 19px;
+}
+.estruturaDoQuiz{
+    width: 90vw;
+    margin: 42px 0px 50px 0px;
+}
+.textoDoQuiz{
+    height: 12vh;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 19px;
     display:flex;
+    align-items: center;
+    justify-content: center; /* Porque não funciona ? */
+    margin-bottom:13px;
+}
+.respostaS{
+    display: flex;
     flex-wrap: wrap;
 }
 .resposta{
-    margin: 12px 0px 12px 12px;
+    margin-right: 5px;
 }
+.resposta p{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+.mensagemFinalDoQuiz{
+    width: 90vw;
+}
+.mensagemFinalDoQuiz img{
+    width: 90vw;
+}
+.mensagemFinal{
+    font-weight: 700;
+    font-size: 17px;
+    color: #484848;
+    margin:9px 0px 48px 0px;
+}
+.footerDoQuiz{
+    display: flex;
+    flex-direction: column;
+}
+.reiniciarQuiz{
+    width: 220px;
+    height: 44px;
+    background-color: #EC362D;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF5F4;
+    border-radius: 50px;
+
+}
+.voltarPraHome{
+    width: 220px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #818181;
+}
+/* ----------------------------------- Banner do quiz ----------------------------------- */
+/* ----------------------------------- Perguntas do quiz ----------------------------------- */
