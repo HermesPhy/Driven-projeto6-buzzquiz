@@ -1,0 +1,59 @@
+<div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Simpsons.png" alt="Imagem dos Simpsons"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>Acerte os personagens corretos dos Simpsons e prove seu amor!</p>
+                        </div>
+                    </div>
+                    <div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Preguiça.png" alt="Imagem de uma preguiça"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>O quão de boas você é?</p>
+                        </div>  
+                    </div>
+                    <div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Simpsons.png" alt="Imagem dos Simpsons"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>Acerte os personagens corretos dos Simpsons e prove seu amor!</p>
+                        </div>
+                    </div>
+                    <div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Preguiça.png" alt="Imagem de uma preguiça"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>O quão de boas você é?</p>
+                        </div>  
+                    </div>
+                    <div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Simpsons.png" alt="Imagem dos Simpsons"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>Acerte os personagens corretos dos Simpsons e prove seu amor!</p>
+                        </div>
+                    </div>
+                    <div class="quiz">
+                        <div class="imagemQuiz">
+                            <img src="Imagens/Figma/Preguiça.png" alt="Imagem de uma preguiça"/>
+                        </div>
+                        <div class="textoQuiz">
+                            <p>O quão de boas você é?</p>
+                        </div>  
+                    </div>
+---------------------------------------------------------------------------------------------------------------------------
+function alternarDaTela1ParaATela2(divQuiz){
+    console.log(divQuiz);
+    /*const TELA1 = document.querySelector(".boxTela1");
+    const TELA2 = document.querySelector(".boxTela2");
+    TELA1.classList.toggle("off");
+    TELA2.classList.toggle("offTela2");*/
+}
+function criarPaginaDoQuiz(){
+
+}
