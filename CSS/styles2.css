@@ -1,30 +1,12 @@
 /* ----------------------------------- Estilos da tela 2 ----------------------------------- */
 /* ----------------------------------- Banner do quiz ----------------------------------- */
-.azul{
-    background-color:#434CA0;
-}
-.roxo{
-    background-color:#A0438D;
-}
-.laranja{
-    background-color: #EC362D;
-}
 .boxTela2{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-.bannerDoQuiz{
-    width: 100vw;
-    height: 16vh;
-    background-image: url(/Imagens/Figma/Tela2/hogwartsbanner.png);
-    background-size: cover;
-}
 .textoDoBanner{
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Porque não funciona ? */
+    color: #FFFFFF; /* Porque não funciona ? */
     font-weight: 400;
     font-size: 19px;
 }
@@ -45,9 +27,15 @@
 .respostaS{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .resposta{
     margin-right: 5px;
+}
+.resposta img{
+    width: 163px;
+    height: 113px;
+    border-radius: 5px;
 }
 .resposta p{
     margin-bottom: 12px;
@@ -87,6 +75,24 @@
     font-weight: 400;
     font-size: 18px;
     color: #818181;
+}
+/*.respostaSelecionada{
+
+}*/
+.respostaNaoSelecionada{
+    opacity:0.3;
+}
+.respostaCerta{
+    pointer-events: none;
+}
+.respostaErrada{
+    pointer-events: none;
+}
+.respostaCerta p{
+    color:#009C22;
+}
+.respostaErrada p{
+    color:#FF4B4B;
 }
 /* ----------------------------------- Banner do quiz ----------------------------------- */
 /* ----------------------------------- Perguntas do quiz ----------------------------------- */

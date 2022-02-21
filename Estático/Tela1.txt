@@ -57,3 +57,50 @@ function alternarDaTela1ParaATela2(divQuiz){
 function criarPaginaDoQuiz(){
 
 }
+---------------------------------------------------------------------------------------------------------------------------
+<!--<div class="estruturaDoQuiz perguntasDoQuiz">
+                <div class="textoDoQuiz azul"> Mudar textoDoQuiz para perguntaDoQuiz
+                    <p>Em qual animal Olho-Tonto Moody transfigurou Malfoy</p>
+                </div>
+                <div class="respostaS">
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/gato.png" alt="Imagem de um gatinho"/>
+                        <p> Gatinho </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/rato.png" alt="Imagem de um gatinho"/>
+                        <p> Rato Malandro </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/gamba.png" alt="Imagem de um gatinho"/>
+                        <p> Mustela Putorius Furo </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/sapo.png" alt="Imagem de um gatinho"/>
+                        <p> Sãpao cabuloso </p>
+                    </div>
+                </div>
+            </div>-->
+            <!--<div class="estruturaDoQuiz">
+                <div class="textoDoQuiz roxo">
+                    <p>Qual dos objetos abaixo NÃO é uma horcrux</p>
+                </div>
+                <div class="respostaS">
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/potter.png" alt="Imagem de um gatinho"/>
+                        <p> Gatinho </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/livro.png" alt="Imagem de um gatinho"/>
+                        <p> Rato Malandro </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/anel.png" alt="Imagem de um gatinho"/>
+                        <p> Mustela Putorius Furo </p>
+                    </div>
+                    <div class="resposta">
+                        <img src="Imagens/Figma/Tela2/aguia.png" alt="Imagem de um gatinho"/>
+                        <p> Sãpao cabuloso </p>
+                    </div>
+                </div>
+            </div>
